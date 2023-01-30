@@ -46,8 +46,7 @@ else:
     print("wrong")
     score = score-1
 
-q5 = print(
-    "\nquestion 5) how many bytes are per kilobyte? \n1-1000\n2-1024\n3-8\n4-2048\n")
+q5 = print("\nquestion 5) how many bytes are per kilobyte? \n1-1000\n2-1024\n3-8\n4-2048\n")
 q52 = input("enter 1 or to ... or 4: ")
 
 if q52 == "2":
@@ -57,8 +56,7 @@ else:
     print("wrong")
     score = score-1
 
-q6 = print(
-    "\nquestion 6) What key is for making free space? \n1-Shift\n2-Ctrl\n3-Alt\n4-Space\n")
+q6 = print("\nquestion 6) What key is for making free space? \n1-Shift\n2-Ctrl\n3-Alt\n4-Space\n")
 q62 = input("enter 1 or to ... or 4: ")
 
 if q62 == "4":
@@ -99,8 +97,7 @@ if score >= 3:
         print("wrong")
         score1 = score1-1
 
-    q22 = print(
-        "\nquestion 2) Narmafzar ha bar rooye kodam hafeze haye zir ejra mishavand? \n1-Flash\n2-Harddisk\n3-Ram\n4-Rom\n")
+    q22 = print("\nquestion 2) Narmafzar ha bar rooye kodam hafeze haye zir ejra mishavand? \n1-Flash\n2-Harddisk\n3-Ram\n4-Rom\n")
     q222 = input("enter 1 or to ... or 4: ")
 
     if q222 == "2":
@@ -180,10 +177,9 @@ if score >= 3:
     if score1 >= 4:
         print(f"Congrats you have past ICDL test2 now get ready for ICDL test 3\n")
         print("Welcome to ICDL test 3,Good luck")
-        input("Press any key if yoy are ready for the test: ")
+        input("Press any key if you are ready for the test: ")
 
-        q111 = print(
-            "\nquestion 1) ertefa miz computer hodoodan chand cm ast? \n1-50 ta 60\n2-45 ta 65\n3-76 ta 90\n4-66 ta 77\n")
+        q111 = print("\nquestion 1) ertefa miz computer hodoodan chand cm ast? \n1-50 ta 60\n2-45 ta 65\n3-76 ta 90\n4-66 ta 77\n")
         q1111 = input("enter 1 or to ... or 4: ")
 
         if q1111 == "4":
@@ -203,8 +199,7 @@ if score >= 3:
             print("wrong")
             score2 = score2-1
 
-        q333 = print(
-            "\nquestion 3) be computeri ke dar yek shabake az digar computer ha service migiradche migooyand? \n1-Client\n2-Lan\n3-Server\n4-Man\n")
+        q333 = print("\nquestion 3) be computeri ke dar yek shabake az digar computer ha service migiradche migooyand? \n1-Client\n2-Lan\n3-Server\n4-Man\n")
         q3333 = input("enter 1 or to ... or 4: ")
 
         if q3333 == "1":
@@ -224,8 +219,7 @@ if score >= 3:
             print("wrong")
             score2 = score2-1
 
-        q555 = print(
-            "\nquestion 5) kodam gozine zir baes vared shodan virus be system mishavad? \n1-CD\n2-Hame mavared\n3-USB\n4-Shabake\n")
+        q555 = print("\nquestion 5) kodam gozine zir baes vared shodan virus be system mishavad? \n1-CD\n2-Hame mavared\n3-USB\n4-Shabake\n")
         q5555 = input("enter 1 or to ... or 4: ")
 
         if q5555 == "2":
@@ -243,9 +237,7 @@ if score >= 3:
         total = (score+score1+score2)
 
         if total >= 10:
-            print(
-                f"\n\nCongratulation You have past three tests and your total socre is {total}.\n\nScore test1 = {score} \nScore test2 = {score1} \nScore test3 = {score2} ")
+            print(f"\n\nCongratulation You have past three tests and your total socre is {total}.\n\nScore test1 = {score} \nScore test2 = {score1} \nScore test3 = {score2} ")
         else:
-            print(
-                f"\n\nSorry But you have failed the tests with {total} Score. \n\nScore test1 = {score} \nScore test2 = {score1} \nScore test3 = {score2} ")
+            print(f"\n\nSorry But you have failed the tests with {total} Score. \n\nScore test1 = {score} \nScore test2 = {score1} \nScore test3 = {score2} ")
 
